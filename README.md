@@ -1,110 +1,98 @@
-# 🧪 Projeto de QA | Testes de Software  
-_Repositório criado para demonstrar os conhecimentos adquiridos durante o bootcamp, utilizando práticas de teste estruturadas, cenários reais e documentação técnica._
+# 🧪 Projeto – O Dia a Dia de um QA: Prática de Testes Manuais Funcionais
+
+Este repositório apresenta a entrega completa do desafio **"O dia a dia de um QA: A prática de testes manuais funcionais"**, realizado como parte do programa da DIO.
+
+O projeto simula o trabalho real de um QA em um ambiente ágil, aplicando desde a análise de requisitos até a criação de casos de teste, documentação e construção do fluxo de trabalho.
 
 ---
 
-## 🚀 Sobre o Projeto
-Este projeto foi desenvolvido com o objetivo de aplicar conceitos essenciais de **Qualidade de Software (QA)**, cobrindo desde testes manuais até fundamentos de automação.
+## 🚀 Objetivo do Projeto
 
-Aqui você encontrará:
-- 📌 Casos de teste  
-- 📌 Cenários de teste  
-- 📌 Documentação  
-- 📌 Técnicas de análise  
-- 📌 Processo de verificação e validação  
-
-Tudo seguindo boas práticas para garantir clareza, padronização e reprodutibilidade.
-
----
-
-## 🧵 Conteúdos Trabalhados
-
-### ✔ **1. Tipos de Teste**
-- Testes Funcionais  
-- Testes Não Funcionais  
-- Testes Caixa-Preta  
-- Testes Caixa-Branca  
-- Testes de Regressão  
-- Testes de Integração  
-- Testes de Sistema  
+- Definir o **workflow do time** e o **ciclo de vida do bug**
+- Criar **User Stories reais**, seguindo o padrão INVEST
+- Documentar testes utilizando:
+  - ✔ Casos de teste Step-by-Step  
+  - ✔ Cenários BDD (Given / When / Then)
+- Construir um **Mind Map completo** da User Story
+- Organizar um **Ciclo de Testes**
+- Usar ferramentas de mercado como Jira, Zephyr e Confluence
 
 ---
 
-### ✔ **2. Estruturas e Modelos de Teste**
-- Casos de Teste (CT)  
-- Planos de Teste  
-- Cenários BDD  
-- Critérios de Aceitação  
-- Técnicas de Particionamento de Equivalência  
-- Análise de Valor Limite  
+## 🧩 Entregas Realizadas
+
+| Etapa | Descrição | Arquivo |
+|------|-----------|---------|
+| 1️⃣ | Fluxo de trabalho e ciclo de vida do bug | `Fluxo-de-Trabalho.pdf` |
+| 2️⃣ | User Stories documentadas | `User-Stories.pdf` |
+| 3️⃣ | Mind Map da User Story “Login com Credenciais Válidas” | `MindMap-Login.png` |
+| 4️⃣ | Casos de Teste Step-by-Step | `Casos-StepByStep.pdf` |
+| 5️⃣ | Casos BDD (Given / When / Then) | `Casos-BDD.pdf` |
+| 6️⃣ | Ciclo de Testes | `Ciclo-de-Testes.pdf` |
 
 ---
 
-### ✔ **3. Normas e Padrões**
-Trabalhamos em conformidade com padrões de qualidade amplamente utilizados:
-- 📘 **ISO/IEC 25010** – modelo de qualidade de software  
-- 📘 **ISO/IEC/IEEE 29119** – normas para documentação de teste  
-- 📘 **IEEE 829** – padrão de documentação  
+## 🧠 User Stories Criadas
 
+### **1. Login com Credenciais Válidas**
+**Como** cliente cadastrado,  
+**quero** fazer login na plataforma SwagLabs,  
+**para** acessar minha conta e realizar compras.
 
-
-
-
----
-
-## 🧪 Exemplo de Caso de Teste
-
-
-
-### 📝 Caso de Teste – CT001: Login com credenciais válidas
-
-**Objetivo:**  
-Validar se o usuário consegue acessar o sistema com e-mail e senha corretos.
-
-**Pré-condições:**  
-– Usuário cadastrado  
-– Acesso ao ambiente de teste  
-
-**Passos:**  
-1. Acessar a página de login  
-2. Inserir e-mail válido  
-3. Inserir senha válida  
-4. Clicar em "Entrar"
-
-**Resultado Esperado:**  
-Usuário deve ser direcionado ao dashboard.
-
-
-🧬 Exemplo de Cenário BDD
-
-Feature: Login
-  Scenario: Login com credenciais válidas
-    Given que o usuário está na página de login
-    When inserir e-mail válido
-     And inserir senha válida
-     And clicar em "Entrar"
-    Then o sistema deve redirecionar para o dashboard
-    
----
-
-📚 Tecnologias e Conceitos Utilizados
-
-Testes Manuais
-
-BDD com Gherkin
-
-Conceitos fundamentais de QA
-
-Estruturação e documentação técnica
-
-Análise de requisitos
-
-Critérios de aceitação
-
-Estratégias de teste
+### **2. Pagamento via PIX**
+**Como** cliente da loja,  
+**quero** realizar pagamento via PIX,  
+**para** finalizar minha compra rapidamente e sem taxas.
 
 ---
 
-🧑‍💻 Autor(a)
+## 🧭 Ferramentas Utilizadas
 
-Projeto desenvolvido por Isabela Duarte durante estudos em Qualidade de Software.
+- 🧰 **Jira Software** – Gerenciamento ágil do backlog  
+- 📋 **Zephyr Scale** – Criação e execução de casos de teste  
+- 🧠 **Confluence** – Documentação e mind maps  
+- 💻 **GitHub** – Repositório de entrega  
+- 🌐 **SauceDemo** – Aplicação base para testes manuais  
+
+---
+
+## 📘 Casos de Teste Criados
+
+### ✔ **Step-by-Step**
+- Login com credenciais válidas  
+- Login com credenciais inválidas  
+
+### ✔ **BDD (Given / When / Then)**
+- Login bem-sucedido  
+- Login falho por credenciais incorretas  
+
+---
+
+## 🌀 Ciclo de Testes
+
+O ciclo de testes foi organizado conforme boas práticas de QA:
+
+- Testes positivos e negativos  
+- Testes de interface  
+- Testes funcionais  
+- Testes exploratórios  
+- Reteste e regressão  
+
+---
+
+## 👨‍💻 Autora
+
+**Isabela Duarte**  
+Projeto SwagLabs Shopping  
+
+---
+
+## ✅ Conclusão
+
+Este projeto representa o ciclo completo de trabalho de um QA dentro de um time ágil, incluindo:
+
+- Estruturação do workflow  
+- Definição e documentação de User Stories  
+- Planejamento e execução de testes manuais  
+- Uso das principais ferramentas de mercado  
+
